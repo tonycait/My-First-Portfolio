@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  .logocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      .logo {
+        height: 10px;
+      }
+    }
+  }
+}
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//media screen 375px
+@media screen and (max-width: 375px) {
+  .footer {
+    //flex horizontal center
+    display: flex;
+    justify-content: center;
+
+    p {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 15%;
+      }
+    }
+  }
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .footer {
+    //flex horizontal center
+    display: flex;
+    justify-content: center;
+
+    p {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 15%;
+      }
+    }
+  }
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .footer {
+    //flex horizontal center
+    display: flex;
+    justify-content: center;
+
+    p {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 15%;
+      }
+    }
+  }
+}

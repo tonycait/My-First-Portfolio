@@ -1,0 +1,278 @@
+.contact {
+  height: 100vh;
+  background-color: #121326;
+}
+
+.contactnav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.contacttitle {
+  text-align: center;
+  margin-left: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #121326;
+  //font-family: "SFM";
+  background-color: #f2f2f2;
+}
+
+.contactparent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  height: 95vh;
+}
+
+.contactcontent {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-end;
+  width: 400px;
+}
+
+.contactcover {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 400px;
+  height: 200px;
+  margin-right: 80px;
+}
+
+.contacttitulocontent {
+  color: #f2f2f2;
+  //font-family: "SFM";
+}
+
+.contactcontentt {
+  color: #f2f2f2;
+  //font-family: "SFR";
+}
+
+.contactcontentt2 {
+  color: #63caf2;
+  //font-family: "SFR";
+}
+
+.contacticons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.iconsdiv {
+  width: 300px;
+  height: 50px;
+}
+
+.iconsdivparent {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: #f2f2f2;
+}
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//media screen 375px
+@media screen and (max-width: 375px) {
+  .contactnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .contacttitle {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  }
+
+  .contactcontent {
+    width: 100%;
+  }
+
+  .contactparent {
+    //flex column
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+  }
+
+  .contactcover {
+    margin-right: 0;
+    padding: 20%;
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .contactnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .contacttitle {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  }
+
+  .contactcontent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .contactparent {
+    //flex column
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+  }
+
+  .contactcover {
+    margin-right: 0;
+    padding: 0;
+    max-width: 100%;
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .contactnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .contacttitle {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  }
+
+  .contactcontent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .contactparent {
+    //flex column
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+  }
+
+  .contactcover {
+    margin-right: 0;
+    padding: 0;
+    max-width: 100%;
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1224px) {
+  .contactnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .contacttitle {
+      margin-left: 0;
+      margin-top: 5px;
+    }
+  }
+
+  .contactcontent {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .contactparent {
+    //flex column
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+  }
+
+  .contactcover {
+    margin-right: 0;
+    padding: 0;
+    max-width: 50%;
+    img {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+}

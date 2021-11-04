@@ -72,6 +72,23 @@
   box-shadow: 1px 1px 17px -2px rgba(0, 0, 0, 0.43);
   -webkit-box-shadow: 1px 1px 17px -2px rgba(0, 0, 0, 0.43);
   -moz-box-shadow: 1px 1px 17px -2px rgba(0, 0, 0, 0.43);
+
+  &:hover {
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+}
+
+@keyframes myAnim {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
 
 .resumetitulocontent {
